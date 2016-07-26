@@ -4,7 +4,8 @@
 
 body {
     padding: 70px 0 0;
-    background-color: #007BFF;
+    background-color: rgb(13, 190, 255);
+    background-color: rgba(13, 190, 255, 0.4);
 }
 
 body.breadcrumb-fixed {
@@ -20,8 +21,13 @@ body.breadcrumb-fixed {
 /* -----| HEADER |----------------------------------------------------------- */
 /* -------------------------------------------------------------------------- */
 
+#page-navbar {
+    background-color: rgb(255, 132, 0);
+    background-color: rgba(255, 132, 0,0.4);
+}
+
+
 #page-navbar .navbar-text {
-    background-color: #FFA200;
     display: block;
     float: left;
     font-family: 'Cutive Mono', monospace, serif;
